@@ -5,9 +5,7 @@ def prime?(number)
     elsif 
       (2..Math.sqrt(number))%number = 0 
       true 
-    
- end
+  end
 end
 
 
-#
