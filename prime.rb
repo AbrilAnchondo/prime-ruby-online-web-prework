@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if (2..Math.sqrt(number))%number == 0 
+  if (2..Math.sqrt(number))%number = 0 
     return true 
   end
     
