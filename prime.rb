@@ -1,11 +1,13 @@
 # Add  code here!
 def prime?(number)
  if number <= 1 
-   return false 
+   false 
+ elsif 
+   (2..Math.sqrt(number))%number = 0 
+  true 
  end
   
 end
 
 
-# (2..Math.sqrt(number))%number = 0 
-  #  true 
+#
