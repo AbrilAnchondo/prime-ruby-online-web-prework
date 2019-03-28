@@ -12,5 +12,3 @@ end
 
 
 
-#(2..Math.sqrt(n)).none? {|num| length % num == 0}
-#
