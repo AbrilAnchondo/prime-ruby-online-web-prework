@@ -3,7 +3,8 @@ def prime?(number)
   if (2..Math.sqrt(number))%number = 0 
     return true 
   end
-    
+ else
+   return false
 end
 
 
