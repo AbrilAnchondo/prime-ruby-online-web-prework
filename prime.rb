@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
- if a * b = number && number%a = 0 
- return false 
+ if number <= 1 
+   return false 
  end
   
 end
