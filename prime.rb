@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   if (2..Math.sqrt(number))%number == 0 
-    return TRUE
+    return true 
   end
     
 end
