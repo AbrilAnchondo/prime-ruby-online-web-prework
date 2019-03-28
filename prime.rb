@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(number)
-  for i in (2..Math.sqrt(number))
-    if i%number == 0 
-      return true 
+  if (2..Math.sqrt(number))%number == 0 
+    return TRUE
+  end
     
 end
 
