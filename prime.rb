@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+  return false if number < 1 
   if (2..Math.sqrt(number))%number = 0 
      true 
   else
